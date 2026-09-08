@@ -66,15 +66,47 @@
 
             </div>
 
-            <div class="map-placeholder">
+            <div class="map-section">
 
-                <h2>2026 U.S. Senate</h2>
+    <div class="map-header">
+        <h2>2026 U.S. Senate</h2>
 
-                <p>
-                    Interactive election map coming next.
-                </p>
+        <p>
+            Click a state to make your prediction.
+        </p>
+    </div>
 
-            </div>
+    <div class="map-container">
+
+        <svg
+            id="us-map"
+            viewBox="0 0 960 600"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Interactive United States election map"
+        >
+
+            <rect
+                x="0"
+                y="0"
+                width="960"
+                height="600"
+                class="map-background"
+            ></rect>
+
+            <text
+                x="480"
+                y="300"
+                text-anchor="middle"
+                class="map-loading-text"
+            >
+                U.S. Map
+            </text>
+
+        </svg>
+
+    </div>
+
+</div>
 
         </section>
 
