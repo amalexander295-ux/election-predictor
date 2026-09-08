@@ -27,6 +27,8 @@ nav {
 .logo {
     font-size: 22px;
     font-weight: bold;
+    color: #1f2937;
+    text-decoration: none;
 }
 
 .nav-links {
