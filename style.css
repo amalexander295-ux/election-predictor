@@ -110,6 +110,68 @@ nav {
     text-decoration: none;
 }
 
+
+.prediction-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.prediction-page h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.prediction-intro {
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.prediction-controls {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.prediction-controls label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prediction-controls select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.map-placeholder {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    min-height: 450px;
+    padding: 30px;
+    text-align: center;
+}
+
+.map-placeholder h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.map-placeholder p {
+    color: #666666;
+}
+
+
 @media (max-width: 768px) {
 
     header {
