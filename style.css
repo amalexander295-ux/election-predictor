@@ -334,11 +334,26 @@ nav {
         font-size: 26px;
     }
 
-    .map-section {
-    padding: 18px;
-}
+        .map-section {
+        padding: 18px;
+    }
 
-.map-header h2 {
-    font-size: 24px;
-}
+    .map-header h2 {
+        font-size: 24px;
+    }
+
+    .map-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        overflow: visible;
+    }
+
+    #us-map {
+        width: 100%;
+        aspect-ratio: 959 / 593;
+        height: auto;
+        min-height: 0;
+    }
+
 }
