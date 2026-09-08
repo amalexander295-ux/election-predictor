@@ -65,3 +65,51 @@ nav {
     border-radius: 8px;
     font-weight: bold;
 }
+
+.elections {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.elections h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.election-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.election-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+}
+
+.election-card h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.election-card p {
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.election-card a {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .election-cards {
+        grid-template-columns: 1fr;
+    }
+}
