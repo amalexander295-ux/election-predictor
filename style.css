@@ -207,22 +207,49 @@ nav {
 
 /* Map Area */
 
-.map-placeholder {
+.map-section {
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 12px;
-    min-height: 450px;
     padding: 30px;
+}
+
+.map-header {
     text-align: center;
+    margin-bottom: 25px;
 }
 
-.map-placeholder h2 {
+.map-header h2 {
     font-size: 28px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
-.map-placeholder p {
+.map-header p {
     color: #666666;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#us-map {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.map-background {
+    fill: #f5f6f8;
+}
+
+.map-loading-text {
+    fill: #9ca3af;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 /* Mobile Layout */
