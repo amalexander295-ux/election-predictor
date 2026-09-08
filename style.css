@@ -230,16 +230,17 @@ nav {
 
 .map-container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1000px;
     margin: 0 auto;
-    overflow: hidden;
+    padding: 10px;
+    overflow: visible;
 }
 
 #us-map {
     display: block;
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 600px;
+    border: none;
 }
 
 .map-background {
