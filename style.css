@@ -10,6 +10,8 @@ body {
     color: #1f2937;
 }
 
+/* Header */
+
 header {
     background-color: #ffffff;
     border-bottom: 1px solid #dddddd;
@@ -42,6 +44,8 @@ nav {
     font-weight: 600;
 }
 
+/* Homepage Hero */
+
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -62,11 +66,13 @@ nav {
     display: inline-block;
     padding: 14px 24px;
     background-color: #222222;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
 }
+
+/* Homepage Elections */
 
 .elections {
     max-width: 1200px;
@@ -110,6 +116,7 @@ nav {
     text-decoration: none;
 }
 
+/* Predictions Page */
 
 .prediction-page {
     max-width: 1200px;
@@ -129,6 +136,8 @@ nav {
     color: #666666;
     margin-bottom: 40px;
 }
+
+/* Prediction Election Selector */
 
 .prediction-controls {
     background-color: #ffffff;
@@ -153,6 +162,51 @@ nav {
     background-color: #ffffff;
 }
 
+/* Prediction Seat Counter */
+
+.seat-counter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.party-total {
+    padding: 20px;
+    text-align: center;
+}
+
+.party-total .party-name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.party-total .seat-number {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.democrat {
+    background-color: #0375c9;
+    color: #ffffff;
+}
+
+.tossup {
+    background-color: #ffecd4;
+    color: #1f2937;
+}
+
+.republican {
+    background-color: #c9062a;
+    color: #ffffff;
+}
+
+/* Map Area */
+
 .map-placeholder {
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -171,6 +225,7 @@ nav {
     color: #666666;
 }
 
+/* Mobile Layout */
 
 @media (max-width: 768px) {
 
@@ -222,67 +277,41 @@ nav {
         grid-template-columns: 1fr;
     }
 
-}
+    .prediction-page {
+        padding: 40px 15px;
+    }
 
+    .prediction-page h1 {
+        font-size: 32px;
+    }
 
-/* Predictions Page */
+    .prediction-intro {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
 
-.prediction-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
+    .prediction-controls {
+        padding: 18px;
+    }
 
-.prediction-page h1 {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 12px;
-}
+    .party-total {
+        padding: 16px 8px;
+    }
 
-.prediction-intro {
-    text-align: center;
-    font-size: 18px;
-    color: #666666;
-    margin-bottom: 45px;
-}
+    .party-total .party-name {
+        font-size: 12px;
+    }
 
-.prediction-controls {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 12px;
-    padding: 24px;
-    margin-bottom: 30px;
-}
+    .party-total .seat-number {
+        font-size: 26px;
+    }
 
-.prediction-controls label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
+    .map-placeholder {
+        min-height: 350px;
+        padding: 20px;
+    }
 
-.prediction-controls select {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border: 1px solid #cccccc;
-    border-radius: 8px;
-    background-color: #ffffff;
-}
-
-.map-placeholder {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 12px;
-    min-height: 450px;
-    padding: 30px;
-    text-align: center;
-}
-
-.map-placeholder h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-}
-
-.map-placeholder p {
-    color: #666666;
+    .map-placeholder h2 {
+        font-size: 24px;
+    }
 }
