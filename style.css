@@ -333,12 +333,11 @@ nav {
         font-size: 26px;
     }
 
-    .map-placeholder {
-        min-height: 350px;
-        padding: 20px;
-    }
+    .map-section {
+    padding: 18px;
+}
 
-    .map-placeholder h2 {
-        font-size: 24px;
-    }
+.map-header h2 {
+    font-size: 24px;
+}
 }
